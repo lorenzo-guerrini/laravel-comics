@@ -1,12 +1,12 @@
 <header>
-    <section>
+    {{-- <section class="top">
         <div class="container">
             <div>DC POWER&trade; VISA&reg;</div>
             <div>ADDITIONAL DC SITES &#9660;</div>
         </div>
-    </section>
+    </section> --}}
 
-    <section>
+    <section class="bottom">
         <div class="container">
             <div class="logo">
                 <a href="#">
@@ -27,8 +27,10 @@
                     <li><a href="#">Shop</a></li>
                 </ul>
 
-                <input type="text" placeholder="Search">
-                <i class="fa-solid fa-magnifying-glass"></i>
+                {{-- <div class="search">
+                    <input type="text" placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div> --}}
             </nav>
         </div>
     </section>

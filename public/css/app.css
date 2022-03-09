@@ -9170,36 +9170,36 @@ readers do not read off random characters that represent icons */
   content: "\F63F";
 }
 
-header .container {
+header .bottom .container {
   justify-content: space-between;
   height: 115px;
   padding: 0 15px;
   font-family: "Bangers", cursive;
 }
-header .logo a {
+header .bottom .logo a {
   display: flex;
   align-items: center;
 }
-header .logo a img {
+header .bottom .logo a img {
   height: 81px;
   width: 81px;
 }
-header ul {
+header .bottom ul {
   display: flex;
   font-size: 20px;
 }
-header ul li {
+header .bottom ul li {
   margin: 0 20px;
   padding: 47.5px 0 42.5px 0;
   border-bottom: 5px solid white;
 }
-header ul li:hover, header ul li.active {
+header .bottom ul li:hover, header .bottom ul li.active {
   border-color: #0282f9;
 }
-header ul li a {
+header .bottom ul li a {
   color: #1c1c1c;
 }
-header ul li a:hover {
+header .bottom ul li a:hover {
   color: #0282f9;
 }
 
@@ -9255,7 +9255,7 @@ main .series-container .comic .comic-thumb {
 main .series-container .comic .comic-thumb img {
   width: 175px;
 }
-main .series-container .comic .comic-series {
+main .series-container .comic .comic-title {
   margin: 15px 5.5px;
 }
 
@@ -9290,7 +9290,7 @@ main .series-container .comic .comic-series {
 }
 
 .footer-middle {
-  background-image: url("../../assets/img/footer-bg.jpg");
+  background-image: url("../images/footer-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9339,6 +9339,9 @@ main .series-container .comic .comic-series {
   font-family: "Bangers", cursive;
   font-size: 20px;
   padding: 12px;
+}
+.footer-bottom button a {
+  color: white;
 }
 .footer-bottom #footer-bottom-dx {
   display: flex;

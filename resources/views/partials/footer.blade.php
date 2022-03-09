@@ -7,24 +7,28 @@
                     <span class="footer-top-item-name">Digital Comics</span>
                 </a>
             </div>
+
             <div class="footer-top-item">
                 <a href="#">
                     <img src="{{ asset('images/buy-comics-merchandise.png') }}" alt="DC Merchandise" />
                     <span class="footer-top-item-name">DC Merchandise</span>
                 </a>
             </div>
+
             <div class="footer-top-item">
                 <a href="#">
                     <img src="{{ asset('images/buy-comics-subscriptions.png') }}" alt="Subscrition" />
                     <span class="footer-top-item-name">Subscriptions</span>
                 </a>
             </div>
+
             <div class="footer-top-item">
                 <a href="#">
                     <img src="{{ asset('images/buy-comics-shop-locator.png') }}" alt="Comic Shop Locator" />
                     <span class="footer-top-item-name">Comic Shop Locator</span>
                 </a>
             </div>
+
             <div class="footer-top-item">
                 <a href="#">
                     <img src="{{ asset('images/buy-dc-power-visa.svg') }}" alt="DC Power Visa" />
@@ -84,12 +88,11 @@
                     <li><a href="#">DC Power Visa</a></li>
                 </ul>
             </div>
-            <div>All Site Content TM and &copy; 2020 DC Entertainment, unless otherwise <a href="#">noted here</a>.
-                All rights reserved.<br><a href="#">Cookies Settings</a></div>
-        </div>
-
-        <div id="dc-logo-bg">
-            <img src="{{ asset('images/dc-logo-bg.png') }}" alt="DC">
+            {{-- <div>All Site Content TM and &copy; 2020 DC Entertainment, unless otherwise <a href="#">noted here</a>.
+                All rights reserved.<br><a href="#">Cookies Settings</a></div> --}}
+            <div id="dc-logo-bg">
+                <img src="{{ asset('images/dc-logo-bg.png') }}" alt="DC">
+            </div>
         </div>
     </section>
 
@@ -99,7 +102,7 @@
                 <button><a href="#">Sign-up now!</a></button>
             </div>
 
-            <div class="footer-bottom-dx">
+            <div id="footer-bottom-dx">
                 <span>Follow us</span>
                 <ul>
                     <li><a href="#"><img src="{{ asset('images/footer-facebook.png') }}" alt="Facebook" /></a></li>

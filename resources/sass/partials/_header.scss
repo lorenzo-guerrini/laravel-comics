@@ -1,47 +1,49 @@
 header {
-    .container {
-        justify-content: space-between;
+    .bottom {
+        .container {
+            justify-content: space-between;
 
-        height: 115px;
+            height: 115px;
 
-        padding: 0 15px;
+            padding: 0 15px;
 
-        font-family: "Bangers", cursive;
-    }
+            font-family: "Bangers", cursive;
+        }
 
-    .logo {
-        a {
-            display: flex;
-            align-items: center;
+        .logo {
+            a {
+                display: flex;
+                align-items: center;
 
-            img {
-                height: 81px;
-                width: 81px;
+                img {
+                    height: 81px;
+                    width: 81px;
+                }
             }
         }
-    }
 
-    ul {
-        display: flex;
+        ul {
+            display: flex;
 
-        font-size: 20px;
+            font-size: 20px;
 
-        li {
-            margin: 0 20px;
+            li {
+                margin: 0 20px;
 
-            padding: 47.5px 0 42.5px 0;
-            border-bottom: 5px solid white;
+                padding: 47.5px 0 42.5px 0;
+                border-bottom: 5px solid white;
 
-            &:hover,
-            &.active {
-                border-color: $mainColor;
-            }
+                &:hover,
+                &.active {
+                    border-color: $mainColor;
+                }
 
-            a {
-                color: $secondaryColor;
+                a {
+                    color: $secondaryColor;
 
-                &:hover {
-                    color: $mainColor;
+                    &:hover {
+                        color: $mainColor;
+                    }
                 }
             }
         }

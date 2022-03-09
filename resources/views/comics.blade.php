@@ -16,7 +16,7 @@
                             <div class="comic-thumb">
                                 <img src="{{ $value['thumb'] }}" alt="{{ $value['title'] }}">
                             </div>
-                            <div class="comic title">
+                            <div class="comic-title">
                                 {{ $value['title'] }}
                             </div>
                         </a>
