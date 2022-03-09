@@ -1,10 +1,13 @@
 <header>
-    <div class="container">
-        <section>
+    <section>
+        <div class="container">
             <div>DC POWER&trade; VISA&reg;</div>
             <div>ADDITIONAL DC SITES &#9660;</div>
-        </section>
-        <section>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
             <div class="logo">
                 <a href="#">
                     <img src="{{ asset('images/dc-logo.png') }}" alt="DC">
@@ -27,6 +30,6 @@
                 <input type="text" placeholder="Search">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </nav>
-        </section>
-    </div>
+        </div>
+    </section>
 </header>
