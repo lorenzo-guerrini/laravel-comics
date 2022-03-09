@@ -1,5 +1,5 @@
 <footer>
-    <section>
+    <section class="footer-top">
         <div class="container">
             <div class="footer-top-item">
                 <a href="#">
@@ -34,7 +34,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="footer-middle">
         <div class="container">
             <div class="category">
                 <h3>DC Comics</h3>
@@ -93,7 +93,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="footer-bottom">
         <div class="container">
             <div>
                 <button><a href="#">Sign-up now!</a></button>

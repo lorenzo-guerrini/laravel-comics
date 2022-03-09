@@ -1,0 +1,75 @@
+main {
+    background-color: $secondaryColor;
+    color: white;
+
+    .jumbotron {
+        background-image: url("../../images/jumbotron.jpg");
+        background-size: cover;
+        height: 265px;
+    }
+
+    section:last-of-type {
+        font-family: "Bangers", cursive;
+    }
+
+    .container {
+        font-family: "Bangers", cursive;
+
+        flex-direction: column;
+        align-items: flex-start;
+
+        padding-bottom: 20px;
+
+        h2 {
+            font-size: 40px;
+            background-color: $mainColor;
+            padding: 10px 30px;
+
+            transform: translate(0, -50%);
+        }
+
+        button {
+            font-family: "Bangers", cursive;
+            font-size: 16px;
+
+            padding: 10px 70px;
+
+            align-self: center;
+
+            background-color: $mainColor;
+        }
+    }
+
+    .series-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .comic {
+            height: 262px;
+            width: 210px;
+
+            padding: 0 12px;
+
+            a {
+                color: white;
+            }
+
+            .comic-thumb {
+                height: 175px;
+
+                text-align: center;
+
+                overflow: hidden;
+
+                img {
+                    width: 175px;
+                }
+            }
+
+            .comic-series {
+                margin: 15px 5.5px;
+            }
+        }
+    }
+}

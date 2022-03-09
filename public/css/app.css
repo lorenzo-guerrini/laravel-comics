@@ -1,10 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*!
+@import url(https://fonts.googleapis.com/css2?family=Bangers&display=swap);/*!
  * Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
@@ -9174,4 +9168,221 @@ readers do not read off random characters that represent icons */
 
 .fa-zhihu:before {
   content: "\F63F";
+}
+
+header .container {
+  justify-content: space-between;
+  height: 115px;
+  padding: 0 15px;
+  font-family: "Bangers", cursive;
+}
+header .logo a {
+  display: flex;
+  align-items: center;
+}
+header .logo a img {
+  height: 81px;
+  width: 81px;
+}
+header ul {
+  display: flex;
+  font-size: 20px;
+}
+header ul li {
+  margin: 0 20px;
+  padding: 47.5px 0 42.5px 0;
+  border-bottom: 5px solid white;
+}
+header ul li:hover, header ul li.active {
+  border-color: #0282f9;
+}
+header ul li a {
+  color: #1c1c1c;
+}
+header ul li a:hover {
+  color: #0282f9;
+}
+
+main {
+  background-color: #1c1c1c;
+  color: white;
+}
+main .jumbotron {
+  background-image: url("../../images/jumbotron.jpg");
+  background-size: cover;
+  height: 265px;
+}
+main section:last-of-type {
+  font-family: "Bangers", cursive;
+}
+main .container {
+  font-family: "Bangers", cursive;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 20px;
+}
+main .container h2 {
+  font-size: 40px;
+  background-color: #0282f9;
+  padding: 10px 30px;
+  transform: translate(0, -50%);
+}
+main .container button {
+  font-family: "Bangers", cursive;
+  font-size: 16px;
+  padding: 10px 70px;
+  align-self: center;
+  background-color: #0282f9;
+}
+main .series-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .series-container .comic {
+  height: 262px;
+  width: 210px;
+  padding: 0 12px;
+}
+main .series-container .comic a {
+  color: white;
+}
+main .series-container .comic .comic-thumb {
+  height: 175px;
+  text-align: center;
+  overflow: hidden;
+}
+main .series-container .comic .comic-thumb img {
+  width: 175px;
+}
+main .series-container .comic .comic-series {
+  margin: 15px 5.5px;
+}
+
+.footer-top {
+  background-color: #0282f9;
+}
+.footer-top .container {
+  height: 150px;
+  font-family: "Bangers", cursive;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-top .footer-top-item {
+  width: 236px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-top .footer-top-item a {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.footer-top .footer-top-item a img {
+  height: 55px;
+  margin-right: 10px;
+}
+.footer-top .footer-top-item:last-child img {
+  height: 35px;
+}
+
+.footer-middle {
+  background-image: url("../../assets/img/footer-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.footer-middle .container {
+  padding: 40px 14px 50px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  font-family: "Bangers", cursive;
+  position: relative;
+}
+.footer-middle .category {
+  padding-right: 30px;
+}
+.footer-middle .category h3 {
+  font-size: 26px;
+  color: white;
+  margin-bottom: 10px;
+}
+.footer-middle .category li {
+  font-size: 13px;
+  margin: 4px 0;
+}
+.footer-middle .category li a {
+  color: #959595;
+}
+.footer-middle .category li a:hover {
+  color: #0282f9;
+}
+.footer-middle #dc-logo-bg {
+  position: absolute;
+  top: -100px;
+  right: 0px;
+}
+
+.footer-bottom {
+  background-color: #303030;
+}
+.footer-bottom .container {
+  padding: 30px 14px;
+  justify-content: space-between;
+  font-family: "Bangers", cursive;
+}
+.footer-bottom button {
+  font-family: "Bangers", cursive;
+  font-size: 20px;
+  padding: 12px;
+}
+.footer-bottom #footer-bottom-dx {
+  display: flex;
+  align-items: center;
+}
+.footer-bottom #footer-bottom-dx span {
+  font-size: 26px;
+  padding-right: 10px;
+  color: #0282f9;
+}
+.footer-bottom #footer-bottom-dx ul {
+  display: flex;
+}
+.footer-bottom #footer-bottom-dx ul li {
+  margin-left: 15px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+button {
+  background: none;
+  border: 2px solid #0282f9;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0282f9;
 }

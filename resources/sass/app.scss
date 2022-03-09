@@ -1,6 +1,46 @@
-@import 'partials/_reset';
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
 
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
 @import "~@fortawesome/fontawesome-free/scss/regular";
 @import "~@fortawesome/fontawesome-free/scss/solid";
 @import "~@fortawesome/fontawesome-free/scss/brands";
+
+@import "./partials/_variables.scss";
+@import "./partials/_header.scss";
+@import "./partials/_main.scss";
+@import "./partials/_footer.scss";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background: none;
+
+    border: 2px solid $mainColor;
+
+    color: white;
+
+    cursor: pointer;
+
+    &:hover {
+        background-color: $mainColor;
+    }
+}
