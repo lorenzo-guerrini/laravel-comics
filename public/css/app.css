@@ -9361,28 +9361,42 @@ main .series-container .comic .comic-title {
   font-family: "Bangers", cursive;
   position: relative;
 }
-.footer-middle .category {
+.footer-middle .container .categories {
+  display: flex;
+  margin-bottom: 13px;
+}
+.footer-middle .container .categories .category {
   padding-right: 30px;
 }
-.footer-middle .category h3 {
+.footer-middle .container .categories .category h3 {
   font-size: 26px;
   color: white;
   margin-bottom: 10px;
 }
-.footer-middle .category li {
+.footer-middle .container .categories .category li {
   font-size: 13px;
   margin: 4px 0;
 }
-.footer-middle .category li a {
+.footer-middle .container .categories .category li a {
   color: #959595;
 }
-.footer-middle .category li a:hover {
+.footer-middle .container .categories .category li a:hover {
   color: #0282f9;
 }
-.footer-middle #dc-logo-bg {
+.footer-middle .container .copyright {
+  color: #959595;
+  font-size: 13px;
+}
+.footer-middle .container .copyright a {
+  color: #0282f9;
+}
+.footer-middle .container #dc-logo-bg {
   position: absolute;
-  top: -100px;
+  top: -75px;
   right: 0px;
+}
+.footer-middle .container #dc-logo-bg img {
+  width: 515px;
 }
 
 .footer-bottom {

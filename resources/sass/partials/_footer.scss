@@ -56,38 +56,57 @@
         font-family: "Bangers", cursive;
 
         position: relative;
-    }
 
-    .category {
-        padding-right: 30px;
+        .categories {
+            display: flex;
 
-        h3 {
-            font-size: 26px;
-            color: white;
+            margin-bottom: 13px;
 
-            margin-bottom: 10px;
-        }
+            .category {
+                padding-right: 30px;
 
-        li {
-            font-size: 13px;
+                h3 {
+                    font-size: 26px;
+                    color: white;
 
-            margin: 4px 0;
+                    margin-bottom: 10px;
+                }
 
-            a {
-                color: #959595;
+                li {
+                    font-size: 13px;
 
-                &:hover {
-                    color: $mainColor;
+                    margin: 4px 0;
+
+                    a {
+                        color: #959595;
+
+                        &:hover {
+                            color: $mainColor;
+                        }
+                    }
                 }
             }
         }
-    }
 
-    #dc-logo-bg {
-        position: absolute;
+        .copyright {
+            color: #959595;
+            font-size: 13px;
 
-        top: -100px;
-        right: 0px;
+            a {
+                color: $mainColor;
+            }
+        }
+
+        #dc-logo-bg {
+            position: absolute;
+
+            img {
+                width: 515px;
+            }
+
+            top: -75px;
+            right: 0px;
+        }
     }
 }
 
