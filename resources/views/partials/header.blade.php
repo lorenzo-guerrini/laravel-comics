@@ -1,10 +1,10 @@
 <header>
-    {{-- <section class="top">
+    <section class="top">
         <div class="container">
-            <div>DC POWER&trade; VISA&reg;</div>
-            <div>ADDITIONAL DC SITES &#9660;</div>
+            <div><a href="#">DC POWER&trade; VISA&reg;</a></div>
+            <div><a href="#">ADDITIONAL DC SITES <span class="arrow">&#9660;</span></a></div>
         </div>
-    </section> --}}
+    </section>
 
     <section class="bottom">
         <div class="container">
@@ -24,13 +24,15 @@
                     <li><a href="#">Videos</a></li>
                     <li><a href="#">Fans</a></li>
                     <li><a href="#">News</a></li>
-                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Shop <span class="arrow">&#9660;</span></a></li>
                 </ul>
 
-                {{-- <div class="search">
+                <div class="search">
                     <input type="text" placeholder="Search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div> --}}
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
             </nav>
         </div>
     </section>

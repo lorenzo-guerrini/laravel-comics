@@ -1,4 +1,33 @@
 header {
+    font-family: "Bangers", cursive;
+
+    .top {
+        background-color: $mainColor;
+
+        .container {
+            justify-content: right;
+            height: 24px;
+
+            div {
+                a {
+                    color: white;
+                    font-size: 14px;
+
+                    padding-left: 50px;
+
+                    display: flex;
+                    align-items: center;
+
+                    .arrow {
+                        font-size: 9px;
+
+                        padding-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+
     .bottom {
         .container {
             justify-content: space-between;
@@ -6,8 +35,6 @@ header {
             height: 115px;
 
             padding: 0 15px;
-
-            font-family: "Bangers", cursive;
         }
 
         .logo {
@@ -22,28 +49,81 @@ header {
             }
         }
 
-        ul {
+        nav {
             display: flex;
 
-            font-size: 20px;
+            align-items: center;
 
-            li {
-                margin: 0 20px;
+            ul {
+                display: flex;
 
-                padding: 47.5px 0 42.5px 0;
-                border-bottom: 5px solid white;
+                font-size: 20px;
 
-                &:hover,
-                &.active {
-                    border-color: $mainColor;
+                li {
+                    margin: 0 20px;
+
+                    padding: 47px 0 42.5px 0;
+                    border-bottom: 5px solid white;
+
+                    &:hover,
+                    &.active {
+                        border-color: $mainColor;
+                    }
+
+                    a {
+                        color: $secondaryColor;
+
+                        display: flex;
+                        align-items: center;
+
+                        &:hover {
+                            color: $mainColor;
+                        }
+
+                        .arrow {
+                            color: $mainColor;
+                            font-size: 10px;
+
+                            padding-left: 10px;
+                        }
+                    }
+                }
+            }
+
+            .search {
+                margin-left: 45px;
+
+                position: relative;
+
+                input {
+                    width: 120px;
+
+                    font-size: 16px;
+                    text-align: right;
+                    color: black;
+
+                    border-top: 0;
+                    border-right: 0;
+                    border-left: 0;
+                    border-bottom: 2.5px solid $mainColor;
+
+                    padding: 2.5px 22px 2.5px 0;
+
+                    &:focus {
+                        outline: 0;
+                    }
                 }
 
-                a {
-                    color: $secondaryColor;
+                button {
+                    color: black;
+                    font-size: 16px;
 
-                    &:hover {
-                        color: $mainColor;
-                    }
+                    background-color: white;
+                    border: 0;
+
+                    position: absolute;
+                    top: 4px;
+                    right: 0;
                 }
             }
         }

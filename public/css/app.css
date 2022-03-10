@@ -9170,11 +9170,31 @@ readers do not read off random characters that represent icons */
   content: "\F63F";
 }
 
+header {
+  font-family: "Bangers", cursive;
+}
+header .top {
+  background-color: #0282f9;
+}
+header .top .container {
+  justify-content: right;
+  height: 24px;
+}
+header .top .container div a {
+  color: white;
+  font-size: 14px;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+}
+header .top .container div a .arrow {
+  font-size: 9px;
+  padding-left: 5px;
+}
 header .bottom .container {
   justify-content: space-between;
   height: 115px;
   padding: 0 15px;
-  font-family: "Bangers", cursive;
 }
 header .bottom .logo a {
   display: flex;
@@ -9184,23 +9204,61 @@ header .bottom .logo a img {
   height: 81px;
   width: 81px;
 }
-header .bottom ul {
+header .bottom nav {
+  display: flex;
+  align-items: center;
+}
+header .bottom nav ul {
   display: flex;
   font-size: 20px;
 }
-header .bottom ul li {
+header .bottom nav ul li {
   margin: 0 20px;
-  padding: 47.5px 0 42.5px 0;
+  padding: 47px 0 42.5px 0;
   border-bottom: 5px solid white;
 }
-header .bottom ul li:hover, header .bottom ul li.active {
+header .bottom nav ul li:hover, header .bottom nav ul li.active {
   border-color: #0282f9;
 }
-header .bottom ul li a {
+header .bottom nav ul li a {
   color: #1c1c1c;
+  display: flex;
+  align-items: center;
 }
-header .bottom ul li a:hover {
+header .bottom nav ul li a:hover {
   color: #0282f9;
+}
+header .bottom nav ul li a .arrow {
+  color: #0282f9;
+  font-size: 10px;
+  padding-left: 10px;
+}
+header .bottom nav .search {
+  margin-left: 45px;
+  position: relative;
+}
+header .bottom nav .search input {
+  width: 120px;
+  font-size: 16px;
+  text-align: right;
+  color: black;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 2.5px solid #0282f9;
+  padding: 2.5px 22px 2.5px 0;
+}
+header .bottom nav .search input:focus {
+  outline: 0;
+}
+header .bottom nav .search button {
+  color: black;
+  font-size: 16px;
+  background-color: white;
+  border: 0;
+  position: absolute;
+  top: 4px;
+  right: 0;
 }
 
 main {
